@@ -12,5 +12,4 @@ Installation
 
 3. To run the project, please use these commands in the editor's command prompt: "REACH_CONNECTOR_MODE=ALGO ./reach react" or "REACH_CONNECTOR_MODE=ALGO ../reach react". Make sure you are in the correct directory.
 
-P.s.: Make sure that you have an MyAlgoConnect account. You may register an account through this link: https://wallet.myalgo.com/home
-You may get your testnet token from this link: https://bank.testnet.algorand.network/
+P.s.: Make sure that you have an MyAlgoConnect account. You may register an account through this link: https://wallet.myalgo.com/home . You may get your testnet token from this link: https://bank.testnet.algorand.network/
