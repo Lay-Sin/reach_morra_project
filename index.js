@@ -57,8 +57,8 @@ class Player extends React.Component {
         const guess = await new Promise(resolveHandP => {
             this.setState({view: 'GetGuess', playable: true, resolveHandP});
         });
-        this.setState({view: 'WaitingForResults', hand});
-        return guessToInt[hand];
+        this.setState({view: 'WaitingForResults', guess});
+        return guessToInt[guess];
     }
     seeResult(i) { this.setState({view: 'Done', outcome: intToOutcome[i]}); }
     informTimeout() { this.setState({view: 'Timeout'}); }
