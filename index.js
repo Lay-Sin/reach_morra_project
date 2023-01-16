@@ -39,7 +39,7 @@ class App extends React.Component {
         this.setState({view: 'DeployerOrAttacher'});
     }
     async skipFundAccount() { this.setState({view: 'DeployerOrAttacher'}); }
-    selectAttacher() { this.setState({view: 'Wrapper', ContentView: ATtacher}); }
+    selectAttacher() { this.setState({view: 'Wrapper', ContentView: Attacher}); }
     selectDeployer() { this.setState({view: 'Wrapper', ContentView: Deployer}); }
     render() { return renderView(this, AppViews); }
 }
